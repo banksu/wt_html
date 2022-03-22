@@ -1,4 +1,18 @@
 @import "./reset.css";
+@font-face {
+  font-family: "SUIT-Medium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OTWelcomeRA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   height: 90vh;
@@ -8,14 +22,59 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 div {
-  height: 50vh;
-  width: 70vh;
+  height: 30vw;
+  width: 30vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: white;
+  border-radius: 20px;
+  position: absolute;
 }
+
+/* 스타트 카드  */
+
+.startTitle h2 {
+  padding-bottom: 12px;
+  padding-top: 15px;
+  font-family: "SUIT-Medium";
+  font-size: 23px;
+  color: rgb(28, 59, 8);
+}
+
+.startTitle h1 {
+  font-family: "OTWelcomeRA";
+  font-size: 36px;
+  padding-bottom: 30px;
+}
+
+.startTitle h3 {
+  padding-bottom: 18px;
+  text-align: center;
+}
+
+.startTitle button {
+  border: none;
+  width: 50%;
+  height: 10%;
+  margin-top: 28px;
+  background-color: cadetblue;
+  color: white;
+  border-radius: 10px;
+  font-family: "OTWelcomeRA";
+}
+
+.startTitle button:hover {
+  background-color: tomato;
+}
+
+.papap {
+  display: none;
+}
+
+/* 질문 카드 */
