@@ -8,12 +8,393 @@
     <link rel="styleSheet" href="./css.css" />
   </head>
   <body>
-    <div class="startTitle">
-      <h1>나의 MBTI를 알아봅시당!</h1>
-      <h3>Description</h3>
-      <button>START!</button>
+    <img src="./src/logo.png" id="logo" style="z-index: 60" />
+    <!-- Starting Description -->
+    <div class="startTitle" style="z-index: 50">
+      <h2>구미 르네상스 미술학원과 함께</h2>
+      <h1>웹툰 MBTI를<br />알아봅시당!</h1>
+      <h3>나의 웹툰 성향은 어떤 성향일까요?</h3>
+      <h3>20문항의 질문에 대한 답을 선택하세요.</h3>
+      <h3 class="last">당신의 웹툰MBTI를 알려드립니당!</h3>
+      <h3 class="caution">😎이 테스트는 재미만을 위하여 만들어졌습니다😎</h3>
+      <h3 class="caution last">😎노 과학적 근거! 엄근진 금지!😎</h3>
+      <div class="btnBox">
+        <button>START</button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
     </div>
 
+    <!-- Question Cards -->
+
+    <div class="card" style="z-index: 40">
+      <h1>Q.01</h1>
+      <div class="textBox">
+        <span>
+          물고기 꼬리 대신 사람의 두 다리를<br />갖고 싶었던 인어공주는 금기를
+          범해<br />추방당한 바다마녀를 찾아갔는데...
+        </span>
+      </div>
+      <div class="btnBox">
+        <button class="t">
+          바다마녀는 죽어 있었다.<br />인어공주는 살인의 누명을 쓰고<br />
+          왕위계승권을 박탈당할 위기에 처한다.<br />심해왕궁 정치 모략 서스펜스
+          그랜드오픈..!
+        </button>
+        <button class="f">
+          누명을 쓰고 고독한 여생을 보낸 바다마녀는<br />못다한 사랑과 변신
+          마법을 인어공주에게 남기고 <br />마지막 눈물과 함께 바다거품으로
+          사라진다...<br />
+          마녀의 추억을 따라가는 인어공주의 인간계 여행기
+        </button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+
+    <div class="card" style="z-index: 38">
+      <h1>Q.02</h1>
+      <div class="textBox">
+        <h3>하루 일과의 마무리, 잠들기 직전</h3>
+        <h3>최애 웹툰의 1화를 열어 버렸다!</h3>
+      </div>
+      <div class="btnBox">
+        <button class="p">내일의 나에게 내일의 일을 맡기고 정주행한다.</button>
+        <button class="j">내일의 나에게 최애 웹툰을 맡기고 나는 잔다.</button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+
+    <div class="card" style="z-index: 36">
+      <h1>Q.03</h1>
+      <div class="textBox">
+        <h3>아주 웃기고 흔치 않은 일을 겪었다.</h3>
+        <h3>아마 내 주변에서 이런 일을 겪은 건<br />나 뿐일것이다.</h3>
+      </div>
+      <div class="btnBox">
+        <button class="e">
+          😂😂😂이거봐ㅋㅋㅋ어이상실<br />#일상스타그램 #fff #좋아요반사
+        </button>
+        <button class="i">
+          ( 머릿속에서 캐릭터가 같은 일을 겪는 스토리의 <br />콘티를 짜고 있음 )
+        </button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+
+    <div class="card p-side" style="z-index: 34">
+      <h1>Q.04</h1>
+      <div class="textBox">
+        <h3>
+          오랫동안 돈을 모아 꿈꿔왔던 노트북을 <br />사려는데, 새로운 CPU가
+          탑재된 <br />신형 출시의 소식이 들린다.
+        </h3>
+      </div>
+      <div class="btnBox">
+        <button class="p">
+          타이밍이 기가 막힌다. 당장 신형을 사전예약한다.
+        </button>
+        <button class="j">
+          초기 모델은 어떤 변수가 있을지 모른다.<br />예정대로 구형을 구입한다.
+        </button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+
+    <div class="card n-side" style="z-index: 32">
+      <h1>Q.05</h1>
+      <div class="textBox">
+        <h3>
+          어느날 하늘을 올려다 보니,<br />하늘의 색감과 광활함이 나의 예술적
+          <br />감수성을 자극한다. <br />이때 내 머릿속에서 떠오른
+        </h3>
+      </div>
+      <div class="btnBox">
+        <button class="s">
+          세레니티 블루와 코럴 핑크를 사용한<br />새로운 캐릭터
+        </button>
+        <button class="n">저 풍경을 배경으로 하는<br />멋진 한 장면</button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+
+    <div class="card e-side" style="z-index: 30">
+      <h1>Q.06</h1>
+      <div class="textBox">
+        <h3>
+          학교/직장에서 시끄럽고 유치하게<br />장난치는 학생/동료들을 보며
+        </h3>
+        <h3>나는 차마 내색하지 않지만, 속으로는...</h3>
+      </div>
+      <div class="btnBox">
+        <button class="i">
+          하하하. 청춘이란 좋구만!<br />행복해라, 인류여! 하하하!!
+        </button>
+        <button class="e">에휴</button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+
+    <div class="card n-side" style="z-index: 28">
+      <h1>Q.07</h1>
+      <div class="textBox">
+        <h3>마음에 쏙 든 이쁘고 멋진 캐릭터가</h3>
+        <h3>사용하는 아이템을 내가 정한다면,<br />이유는...</h3>
+      </div>
+      <div class="btnBox">
+        <button class="s">내가 사용하는 거니까.</button>
+        <button class="n">내가 갖고싶은 거니까.</button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+
+    <div class="card t-side" style="z-index: 26">
+      <h1>Q.08</h1>
+      <div class="textBox">
+        <h3>
+          "떡 하나 주면 안 잡아먹지."<br />떡장수 어머니를 따라다닌 호랑이의
+          털이 <br />떡에 들어가 어머니는 1점리뷰를 받았다. <br />어머니가
+          복싱을 배워 호랑이를 쫓아낸 후
+        </h3>
+      </div>
+      <div class="btnBox">
+        <button class="f">
+          "떡 하나가.. 그렇게 어려웠어요..?"<br />밤마다 찾아오는 호랑이의
+          영혼을 달래기 위해 <br />퇴마사 오누이가 호랑이의 슬픈 사연을 풀어가는
+          <br />따뜻한 이야기가 시작된다.
+        </button>
+        <button class="t">
+          "너의 아들은 내가 데리고 있다."<br />"내 아이는 딸이다, 멍청아."<br />
+          "엄마, 저에요..." 어머니를 보이스피싱하여 <br />복수하려다 10년 전
+          미제 유괴사건을 마주하게 된<br />호랑이의 추격전이 시작된다.
+        </button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+
+    <div class="card n-side" style="z-index: 24">
+      <h1>Q.09</h1>
+      <div class="textBox">
+        <h3>와 개쩌는</h3>
+      </div>
+      <div class="btnBox">
+        <button class="s">일을 겪었다. 소재로 써야지.</button>
+        <button class="n">생각이 났다. 소재로 써야지.</button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+
+    <div class="card e-side" style="z-index: 22">
+      <h1>Q.10</h1>
+      <div class="textBox">
+        <h3>
+          누군가 내가 가장 좋아하는 웹툰을<br />해석한 글을 올렸다. 자세히
+          읽어보니, <br />근거에 오류가 있는 해석이다.
+        </h3>
+      </div>
+      <div class="btnBox">
+        <button class="i">
+          이 떡밥은 이런 뜻이랍니다. <br />논리적으로 반박하는 댓글을 써서<br />
+          사실을 정정한다.
+        </button>
+        <button class="e">
+          그럴 수도 있겠다고 생각하고 <br />다른 볼거리를 찾는다.
+        </button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+
+    <div class="card p-side" style="z-index: 20">
+      <h1>Q.11</h1>
+      <div class="textBox">
+        <h3>
+          나는 이미 한 편의 웹툰을 <br />성공적으로 완결지은 유능한 작가이다.
+          <br />차기작을 준비하기 위해<br />가장 먼저 한 일은
+        </h3>
+      </div>
+      <div class="btnBox">
+        <button class="j">차기작 중심 소재에 대한 자료 조사와 플롯라인</button>
+        <button class="p">
+          누구라도 궁금해할 흥미진진한 프롤로그를 만든다.
+        </button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+
+    <div class="card n-side" style="z-index: 18">
+      <h1>Q.12</h1>
+      <div class="textBox">
+        <h3>
+          퇴근/하교 길, 혼자 걷던 내게 <br />삼색 고양이가 말을 걸어온다.<br />"혹시
+          학생이세요? 도를 아십니까?<br />조상복이 많으세요."
+        </h3>
+      </div>
+      <div class="btnBox">
+        <button class="n">고양이가 말을 하니까 일단 들어는 본다.</button>
+        <button class="s">이어폰 듣는 척 가던 길 간다.</button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+
+    <div class="card t-side" style="z-index: 16">
+      <h1>Q.13</h1>
+      <div class="textBox">
+        <h3>
+          용왕의 병을 고치기 위해<br />토끼의 간을 찾아온 별주부는<br />
+          프로레슬러 토끼를 고대해저무술로 제압<br />하였고, 토끼는 목숨을
+          구걸하는데..
+        </h3>
+      </div>
+      <div class="btnBox">
+        <button class="f">
+          살려주세요!<br />제게는 토끼같은 마누라와<br />여우같은 자식들이
+          있어요ㅠㅠ
+        </button>
+        <button class="t">
+          살려주세요!<br />용왕은 파충류인데<br />포유류인 저의 간이
+          맞을까요?ㅜㅜ
+        </button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+
+    <div class="card p-side" style="z-index: 14">
+      <h1>Q.14</h1>
+      <div class="textBox">
+        <h3>내 생활에서 반복되는 루틴이란</h3>
+      </div>
+      <div class="btnBox">
+        <button class="p">오직 마감날짜뿐.</button>
+        <button class="j">
+          취침은 00시, 00시 기상, 00시 아침식사<br />00시 산책..
+        </button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+
+    <div class="card t-side" style="z-index: 12">
+      <h1>Q.15</h1>
+      <div class="textBox">
+        <h3>
+          가난한 나무꾼이 우연히 얻게 된<br />도깨비 방망이와 도깨비 감투.<br />후에
+          밝혀진 이 신비로운 물건들의 <br />작동 원리는
+        </h3>
+      </div>
+      <div class="btnBox">
+        <button class="t">도술</button>
+        <button class="f">양자역학</button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+
+    <div class="card e-side" style="z-index: 10">
+      <h1>Q.16</h1>
+      <div class="textBox">
+        <h3>
+          유능한 웹툰 작가인 나, <br />스토리가 막혀 고민할 때마다 해결책으로<br />즐겨
+          사용하는 방법이 있으니
+        </h3>
+      </div>
+      <div class="btnBox">
+        <button class="e">
+          내 얘기 좀 들어봐봐!<br />믿는 친구에게 줄거리를 얘기한다.
+        </button>
+        <button class="i">방이나 도서관에 틀어박혀 두뇌를 풀가동한다.</button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+
+    <div class="card e-side" style="z-index: 8">
+      <h1>Q.17</h1>
+      <div class="textBox">
+        <h3>
+          정성들인 내 작품이 <br />드디어 정식연재를 시작한다!<br />이 기쁜
+          소식을 나는
+        </h3>
+      </div>
+      <div class="btnBox">
+        <button class="e">
+          개선장군처럼 <br />주변 사람들에게 알리고 축하 받는다.
+        </button>
+        <button class="i">암살자처럼 조용히 숨긴다.</button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+    <div class="card p-side" style="z-index: 6">
+      <h1>Q.18</h1>
+      <div class="textBox">
+        <h3>
+          내 작품의 인기가 하늘로 치솟으면서<br />전세계적으로 대유행하고
+          넷플X스, <br />유튜ㅂ, ㅋㅋ오톡 이모티콘... <br />일거리가 몰아칠 때
+        </h3>
+      </div>
+      <div class="btnBox">
+        <button class="j">하면 하는거다. 어떻게든 하나씩 해낸다.</button>
+        <button class="p">...뭐부터 하지?</button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+
+    <div class="card n-side" style="z-index: 4">
+      <h1>Q.19</h1>
+      <div class="textBox">
+        <h3>
+          몰입감이 엄청나고<br />
+          흥미진진한 스토리의 웹툰을 읽었다.
+        </h3>
+        <h3>이 웹툰의 작가는 대체</h3>
+      </div>
+      <div class="btnBox">
+        <button class="n">무슨 일을 겪으며 살지?</button>
+        <button class="s">무슨 생각으로 살지?</button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+
+    <div class="card t-side" style="z-index: 2">
+      <h1>Q.20</h1>
+      <div class="textBox">
+        <h3>
+          하얀 옷을 입은 선인에게 정직하게 <br />대답을 한 나무꾼은 금도끼,
+          은도끼, <br />쇠도끼를 모두 얻어 집으로 돌아갔습니다.
+        </h3>
+      </div>
+      <div class="btnBox">
+        <button class="f">
+          부자가 된 나무꾼은 선행을 베풀고 <br />사람들을 도우며 행복하게
+          살았습니다. 끝.
+        </button>
+        <button class="t">
+          쇠를 금으로 변환시킨 고에너지 방사선에 <br />노출된 나무꾼은 죽고
+          말았습니다. 끝.
+        </button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+    <div class="card t-side" style="z-index: 0">
+      <h1>It's OK</h1>
+      <div class="textBox">
+        <h3>결과 보기</h3>
+      </div>
+      <div class="btnBox">
+        <button class="last">result</button>
+      </div>
+      <img src="./src/logo_name.png" id="tag" />
+    </div>
+
+    <!-- Result Card -->
+
+    <div class="card resultCard" style="z-index: -5">
+      <h2>당신의 WT.MBTI는...</h2>
+      <h1>ENTP</h1>
+      <span class="subTitle">테스트카드</span>
+      <div class="textBox">
+        <h3></h3>
+      </div>
+      <button onclick="window.location.reload()" id="dasihagi">다시하기</button>
+      <img src="./src/logo_name.png" id="tag" />
+      <span class="comment">
+        취미반 그랜드오픈! 구미 르네상스 미술학원에서 함깨 해요!
+      </span>
+    </div>
     <script src="./app.js"></script>
   </body>
 </html>

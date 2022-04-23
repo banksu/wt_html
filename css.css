@@ -14,9 +14,8 @@
   font-style: normal;
 }
 
-/* 모바일 환경 */
 body {
-  background-color: thistle;
+  background-color: teal;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -25,11 +24,14 @@ body {
   position: relative;
   font-family: "SUIT-Medium";
 }
+#logo {
+  width: 60px;
+}
 
 /* 시작표지 카드 스타일 */
 .startTitle {
   width: 300px;
-  height: 150vw;
+  height: 580px;
   border: 2px black solid;
   border-radius: 26px;
   position: fixed;
@@ -57,7 +59,7 @@ body {
 }
 .caution {
   font-size: 14px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .startTitle .btnBox {
@@ -66,12 +68,16 @@ body {
   left: 17%;
 }
 
+.last {
+  margin-bottom: 20px;
+}
+
 .startTitle button {
   width: 200px;
   height: 50px;
   border: none;
   border-radius: 8px;
-  background-color: darkcyan;
+  background-color: tomato;
   font-family: "OTWelcomeRA";
   color: white;
   font-weight: 600;
@@ -82,8 +88,8 @@ body {
 
 .card {
   width: 300px;
-  height: 150vw;
-  border: 2px black solid;
+  height: 580px;
+  border: none;
   border-radius: 26px;
   position: fixed;
   top: 8%;
@@ -101,8 +107,8 @@ body {
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 16ßpx;
-  line-height: 32px;
+  font-size: 14ßpx;
+  line-height: 34px;
 }
 
 .card .btnBox {
@@ -118,33 +124,64 @@ body {
   margin-bottom: 16px;
   top: -50px;
   border-radius: 10px;
+  background-color: whitesmoke;
+  border: 3px solid white;
 }
 
-.tagBox {
+.card .btnBox button :active {
+  background-color: tomato;
+}
+
+/*결과 카드*/
+.resultCard h1 {
+  margin-top: 48px;
+  font-size: 40px;
+  color: tomato;
+}
+.resultCard h2 {
   position: absolute;
-  bottom: 0px;
+  top: 28px;
   left: 20px;
+  font-size: 12px;
+  color: darkgray;
 }
-/* 와이드스크린 */
-/* @media screen and (min-width: 769px) {
-  body {
-    background-color: thistle;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
+.subTitle {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  color: teal;
+}
+.resultCard .textBox h3 {
+  font-size: 14px;
+  margin-top: -10px;
+}
 
-  .card {
-    width: 40vw;
-    height: 500px;
-    background-color: wheat;
-    border: 2px black solid;
-  }
-} */
+#dasihagi {
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  bottom: 60px;
+  left: 50px;
+  background-color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: gray;
+}
+#tag {
+  position: absolute;
+  width: 100px;
+  bottom: 6px;
+  left: 96px;
+}
 
 .papap {
   display: none;
+}
+.comment {
+  position: absolute;
+  bottom: -20px;
+  left: 15px;
+  font-size: 12px;
+  color: wheat;
 }
